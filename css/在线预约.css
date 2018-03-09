@@ -1,0 +1,348 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: url(../img/在线预约/1.jpg)no-repeat;
+	background-size:100%;
+}
+header{
+	width:100%;
+	height: 100px;	
+	background: white;
+	margin: 0 auto;
+}
+.header{
+	width: 1180px;
+	height: 100px;
+	margin: 0 auto;
+}
+.header-left{
+	width: 300px;
+	height: 100px;
+	float: left;
+}
+.header-right{
+	width: 790px;
+	height: 100px;
+	float: right;
+	position: relative;
+}
+.header-left .line{
+	width:1px;
+	height:35px;
+	margin-top: 30px;
+	background: #F4F4F4;
+}
+.sp{
+	font-size: 10px;
+	color: red;
+}
+.st{
+	font-size: 10px;
+	color: black;
+}
+.header-left ul{
+	width: 400px;
+	height: 100px;
+}
+.header-left ul li{
+	width:190px;
+	height: 60px;
+	float: left;
+	margin-top: 20px;
+}
+.header-left ul li+li{
+	margin-left: 9px;
+}
+.nav{
+	width: 610px;
+	height: 100px;
+}
+.nav ul li{
+	height: 100px;
+	width: 92px;
+	text-align: center;
+	line-height: 100px;
+	float: left;
+	margin-left: 30px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+.nav ul li a:hover{
+	color: red;
+}
+.li{
+	position: relative;
+}
+.b1{
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 18px;
+	top: 42px;
+	left: -23px;
+	background: url(../img/2.jpg) no-repeat;
+}
+.jia{
+	position: absolute;
+	top: 30px;
+	right: 0;
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	border: 1px solid red;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 35px;
+}
+.jia a{
+	color: red;
+	text-decoration: none;
+}
+/***********************头**********/
+.content{
+	width: 100%;
+	height: 950px;
+}
+.contener{
+	width: 1180px;
+	margin: 0 auto;
+}
+.one-top{
+	width: 100%;
+	height: 70px;
+}
+.one-top ul li{
+	width: 60px;
+	height: 70px;
+	line-height: 70px;
+	float: left;
+}
+.one-top a{
+	font-size: 12px;
+	text-decoration: none;
+	color: darkgray;
+}
+.one-con{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+.one-con h2{
+	font-weight: 400;
+	letter-spacing: 5px;
+}
+.con-two{
+	width: 100%;
+	height: 700px;
+	background: white;
+	border: 1px solid transparent;
+}
+.con-two-top{
+	width: 980px;
+	height: 160px;
+	margin: 30px auto;
+}
+.con-two-con{
+	width: 100%;
+	height: 150px;
+	margin-top: 10px;
+	line-height: 90px;
+}
+.con-two-con ul li{
+	width: 150px;
+	height: 60px;
+	float: left;
+}
+.con-two-con ul li+li{
+	margin-left: 16px;
+}
+.con-two-con button{
+	width: 150px;
+	height: 40px;
+	border: 1px solid red;
+	border-radius: 5px;
+	background: white;
+}
+.con-two-center{
+	width: 980px;
+	height: 140px;
+	margin: 0 auto;
+	border-bottom: 1px solid darkgray;
+}
+.con-two-con1{
+	width: 100%;
+	height: 60px;
+	margin-top: 30px;
+	line-height: 60px;
+}
+.con-two-con1 ul li{
+	width: 150px;
+	height: 60px;
+	float: left;
+}
+.con-two-con1 ul li+li{
+	margin-left: 16px;
+}
+.con-two-con1 button{
+	width: 150px;
+	height: 40px;
+	border: 1px solid red;
+	border-radius: 5px;
+	background: white;
+}
+.con-three{
+	width: 980px;
+	height: 180px;
+	margin: 0 auto;
+	border: 1px solid transparent;
+}
+.con-three-left{
+	width: 50%;
+	height: 180px;
+	float: left;
+}
+.con-three-right{
+	width: 50%;
+	height: 200px;
+	float: left;
+}
+.ul3{
+	width: 80px;
+	height: 100px;
+	margin-top: 50px;
+	float: left;
+}
+.ul3 li{
+	width: 80px;
+	height: 40px;
+	margin-top: 10px;
+}
+.ul4{
+	width: 300px;
+	height: 100px;
+	margin-top: 50px;
+	float: left;
+	margin-left: 10px;
+}
+.ul4 li{
+	width: 300px;
+	height: 40px;
+	margin-top: 7px;
+}
+.ul4 input{
+	width: 290px;
+	height: 30px;
+	border: 1px solid darkgray;
+	border-radius: 5px;
+	background: #f9f9f9;
+	text-indent: 10px;	
+}
+.bottom{
+	width: 100%;
+	height: 50px;
+	margin: 50px auto;
+}
+.bottom button{
+	width: 150px;
+	height: 50px;
+	background: red;
+	border: 0;
+	border-radius: 10px;
+	margin-left: 500px;
+}
+.bottom a{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+.con-two-con1 button:hover{
+	background: red;
+	color: white;
+}
+.con-two-con button:hover{
+	background: red;
+	color: white;
+}
+/*********************************/
+footer{
+	width: 100%;
+	height: 280px;
+	background: #e8e8e8;
+}
+.foot{
+	width: 1180px;
+	height: 250px;
+	margin: 0 auto;	
+}
+.foot-left{
+	width:215px;
+	height: 210px;
+	float: left;
+}
+.foot-left img{
+	margin-top: 80px;
+}
+.foot-left p{
+	margin-top: 20px;
+	line-height: 25px;
+}
+.foot-center{
+	width:830px;
+	height:210px;
+	float: left;
+}
+.ul{
+	width: 100%;
+	height: 40px;
+	margin: 80px 0 0 20px;
+}
+.ul li{
+	width: 115px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 30px;
+}
+.ul2{
+	width: 100%;
+	height: 80px;
+}
+.ul2 li{
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	float: left;
+	margin-left: 25px;
+	font-size: 12px;
+}
+.foot-right{
+	width: 135px;
+	height: 210px;
+	float: left;
+}
+.foot-right img{
+	margin-top: 80px;
+}
+.foot-right p{
+	font-size: 12px;
+}
+.foot2{
+	background: #efefef;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: darkgray;
+	border-top: 1px solid #ccc;
+	line-height: 30px;
+}
+
+
+
